@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;netcoreapp2.0</TargetFrameworks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OSCBOL\OSCBOL.csproj" />
+    <ProjectReference Include="..\OSCDAL\OSCDAL.csproj" />
+  </ItemGroup>
+
+</Project>
